@@ -1,0 +1,165 @@
+.body{
+  margin: 0;
+  padding: 0;
+}
+.menu-bar{
+  background: #111;
+}
+
+
+.logo{
+  height: 50px;
+  width: 150px;
+  margin-left: 50px;
+}
+/*navbar*/
+.navbar-nav{
+  margin-right: 100px;
+  text-align: right;
+}
+.navbar-brand{
+  width: 150px;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+.nav-link{
+  margin: 3px;
+  color: #fff ! important;
+  font-weight: 500;
+}
+.nav-link:hover{
+  font-weight: 600;
+  border-bottom: 1px solid #fff ;
+}
+.navborder{
+  border: solid;
+  border-color: grey;
+}
+@media only screen and (max-width : 1000px) {
+  .nav-link:hover {
+    border-bottom: none ! important;
+  }
+}
+.fa-bars{
+  color: white;
+}
+.navbar-collapse{
+  font-family: 'Teko', sans-serif;
+  font-size: 25px;
+}
+/* containers*/
+
+/*first-container*/
+
+.image-taj{
+  border-radius: 20%;
+}
+p{
+  text-align: justify;
+}
+.textfor-tajmahal{
+  border: 9px double #FCF1F1;
+  border-radius: 15px;
+  background-color: #132743;
+  color: #fff;
+  font-family: 'Lemonada', cursive;
+  line-height: 2rem;
+}
+h1{
+  font-family: 'Bungee Inline', cursive;
+}
+.image-taj{
+  width: 80%;
+  height: 30rem;
+}
+.btn-warning{
+  font-family: 'Aclonica', sans-serif;
+}
+h4{
+  font-family: 'Righteous', cursive;
+}
+
+/*footer*/
+
+.footer1{
+  text-align: center;
+  background-image: url(../images/kasol.jpg);
+  color:yellow;
+}
+.logo1{
+  height: 100px;
+  width: 100px;
+}
+.footerp{
+  color: #999;
+  line-height: 25px;
+}
+h2{
+  font-size: 18px;
+}
+.footer-top{
+  background: #111;
+  padding: 60px 0 30px 0px;
+}
+.first-segment h2{
+  color: #fff;
+}
+.first-segment ul{
+  list-style: none;
+}
+.first-segment ul li a {
+  color: #999;
+  text-decoration: none;
+}
+.first-segment ul li {
+  border-bottom: 1px solid  rgba(255,255, 255, 0.3);
+}
+.first-segment h2:before{
+  content: '|';
+  color: #c65039;
+  padding-right: 10px;
+}
+.second-segment p{
+  color: #999;
+  letter-spacing: 3px;
+}
+.second-segment h2{
+  color: #fff;
+  text-transform: uppercase;
+}
+.second-segment h2:before{
+  content: '|';
+  color: #c65039;
+  padding-right: 10px;
+}
+.second-segment a{
+  background: #494848;
+  width: 40px;
+  height: 40px;
+  display: inline-block;;
+  border-radius: 50%;
+}
+.second-segment a i {
+  font-size: 20px;
+  color: #fff;
+  padding: 10px 12px;
+}
+.third-segment h2{
+  color: #fff;
+  letter-spacing: 3px;
+}
+.third-segment ul{
+  list-style: none;
+}
+.third-segment ul li a{
+  color: #999;
+  text-decoration: none;
+}
+.third-segment h2:before{
+  content: '|';
+  color: #c65039;
+  padding-right: 10px;
+}
+.third-segment ul li {
+  border-bottom: 1px solid  rgba(255,255, 255, 0.3);
+}
